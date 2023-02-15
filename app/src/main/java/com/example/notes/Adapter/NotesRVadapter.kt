@@ -17,7 +17,7 @@ class NotesRVadapter(private val context: Context, private val listener: InotesR
 	 private val allNotes = ArrayList<Note>()  //
 
 	inner class NoteViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-		val textView = itemView.findViewById<TextView>(R.id.note_text)
+		val     textView = itemView.findViewById<TextView>(R.id.note_text)
 		val deletebtn = itemView.findViewById<ImageView>(R.id.deletebtn)
 
 	}

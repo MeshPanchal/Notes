@@ -23,21 +23,9 @@ abstract class NoteDatabase : RoomDatabase() {
 			super.onCreate(db)
 			INSTANCE?.let {
 				scope.launch {
-					// this is place where you write code when
-					//var notedao = database.getNoteDao()
 
 					// Delete all content here.
-					//notedao.deleteNote(note)
 
-//					// Add sample words.
-//					var word = Word("Hello")
-//					wordDao.insert(word)
-//					word = Word("World!")
-//					wordDao.insert(word)
-//
-//					// TODO: Add your own words!
-//					word = Word("TODO!")
-//					wordDao.insert(word)
 				}
 			}
 		}
